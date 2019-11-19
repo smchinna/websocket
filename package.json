@@ -1,0 +1,24 @@
+{
+  "name": "websocket_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node index.js",
+    "client": "nodemon node client.js",
+    "check": "nodemon node check.js",
+    "push": "web-push generate-vapid-keys"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "nodemon": "^1.19.3",
+    "sockjs": "^0.3.19",
+    "sockjs-client": "^1.4.0",
+    "web-push": "^3.4.0",
+    "websocket": "^1.0.30"
+  }
+}
