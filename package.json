@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "http": "0.0.0",
     "nodemon": "^1.19.3",
     "sockjs": "^0.3.19",
